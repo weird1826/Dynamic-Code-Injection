@@ -1,0 +1,27 @@
+{
+  "name": "code-injector-lib",
+  "version": "1.0.0",
+  "description": "A React library for dynamic code injection",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "dependencies": {
+    "dompurify": "^3.2.3"
+  },
+  "devDependencies": {
+    "@types/dompurify": "^3.0.5",
+    "@types/react": "^18.2.0",
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "build": "rollup -c && ts --emitDeclarationOnly",
+    "prepare": "npm run build"
+  }
+}

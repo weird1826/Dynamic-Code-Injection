@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/types",
+        "declaration": true,
+        "declarationDir": "dist/types",
+        "module": "ESNext",
+        "target": "ES5",
+        "lib": ["ES6", "DOM", "ES2016", "ES2017"],
+        "jsx": "react",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "strict": true
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "dist"]
+}
