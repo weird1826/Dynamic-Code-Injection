@@ -6,6 +6,11 @@ import { useCodeInjection } from "../hooks/useCodeInjection";
 import DOMPurify from "dompurify";
 import { getSecurityConfig, SecurityLevels } from "../configs/securityConfigs";
 
+/**
+ * Component for injecting code into the DOM
+ * @param {Object} props - The component props
+ * @returns
+ */
 export const CodeInjector = ({
   codeId,
   enabled,

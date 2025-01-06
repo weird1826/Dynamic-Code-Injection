@@ -1,3 +1,7 @@
+/**
+ * Security levels for code injection
+ * @enum {string}
+ */
 export const SecurityLevels = {
   STRICT: "STRICT",
   MODERATE: "MODERATE",
@@ -5,6 +9,11 @@ export const SecurityLevels = {
   NONE: "NONE",
 };
 
+/**
+ * Get security configuration based on the provided level
+ * @param {string} level - The security level
+ * @returns {object} The security configuration
+ */
 export const getSecurityConfig = (level) => {
   switch (level) {
     case SecurityLevels.STRICT:

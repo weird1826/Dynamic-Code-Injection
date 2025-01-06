@@ -1,5 +1,5 @@
 {
-  "name": "code-injector-lib",
+  "name": "react-injector-lib",
   "version": "1.0.0",
   "description": "A React library for dynamic code injection",
   "main": "dist/index.js",
@@ -13,15 +13,23 @@
     "react-dom": ">=16.8.0"
   },
   "dependencies": {
-    "dompurify": "^3.2.3"
+    "dompurify": "^3.2.3",
+    "prop-types": "^15.8.1"
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.26.3",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-terser": "^0.4.4",
     "@types/dompurify": "^3.0.5",
     "@types/react": "^18.2.0",
+    "rollup": "^2.79.2",
+    "rollup-plugin-terser": "^7.0.2",
     "typescript": "^5.0.0"
   },
   "scripts": {
-    "build": "rollup -c && ts --emitDeclarationOnly",
+    "build": "rollup -c && tsc --emitDeclarationOnly",
     "prepare": "npm run build"
   }
 }
