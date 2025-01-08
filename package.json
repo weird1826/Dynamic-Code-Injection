@@ -8,6 +8,32 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weird1826/Dynamic-Code-Injection.git"
+  },
+  "keywords": [
+    "react",
+    "code",
+    "injection",
+    "insertion",
+    "dynamic"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weird1826/Dynamic-Code-Injection/issues"
+  },
+  "homepage": "https://github.com/weird1826/Dynamic-Code-Injection?tab=readme-ov-file#",
+  "author": {
+    "name": "CloverX"
+  },
+  "maintainers": [
+    "Community",
+    "Tejas Parmar",
+    "Aman Varma",
+    "Yesh Patel",
+    "Nihar Mehta"
+  ],
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
